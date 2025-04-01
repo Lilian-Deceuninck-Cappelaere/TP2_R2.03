@@ -11,7 +11,8 @@ class Plateau{
 	this.ajouterPiece(new Dame('B', new Position("D1")));
 	this.ajouterPiece(new Roi('B', new Position("E1")));
 	this.ajouterPiece(new Fou('B', new Position("F1")));
-	this.ajouterPiece(new Cavalier('B', new Position("G1")));
+	//this.ajouterPiece(new Cavalier('B', new Position("G1"))); 
+	this.ajouterPiece(new Favalier('B', new Position("G1"))); // ici pour tester Favalier
 	this.ajouterPiece(new Tour('B', new Position("H1")));
 
 	for(char c = 'A'; c < 'I' ; c++){
