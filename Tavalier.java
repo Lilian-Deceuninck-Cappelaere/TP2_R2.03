@@ -11,7 +11,7 @@ class Tavalier extends Piece {
     }
 
     public String getType() {
-        return new String("Tavalier");
+        return new String("tavalier"); 
     }
 
     public ArrayList<Position> getDeplacementPossible(Plateau pl) {
